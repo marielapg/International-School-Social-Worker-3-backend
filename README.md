@@ -25,13 +25,13 @@ nodemon
 bcrypt
 dotenv
 cors
-Express
+express
 helmet
 SQLite3
 jsonWebToken
 Jest
 Supertest
-pg
+
 npm i
 Start the development local server, this git will use port 5000
 
