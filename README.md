@@ -16,14 +16,14 @@ A step by step series of examples that tell you how to get a development env run
 
 Install the dependancies that comes with the repo which include:
 
-Knex
-knex-cleaner
-Node
-nodemon
-bcrypt
-dotenv
+-Knex
+-knex-cleaner
+-Node
+-nodemon
+-bcrypt
+-dotenv
 pg
-cors
+-cors
 express
 helmet
 SQLite3
