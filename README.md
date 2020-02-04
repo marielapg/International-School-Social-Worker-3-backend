@@ -1,12 +1,10 @@
 # International-School-Social-Worker-3-buildweek
 
 
-The base URL for this project is: __________________________________
-International School Social Worker is a website that will help allow administrators and social workers insert students data. This API provides a users, auth (including JWT tokens)....
+The base URL for this project is: https://intl-school-social-worker.herokuapp.com/
+International School Social Worker is a website that will help allow administrators and social workers insert students data. 
 
-
-
-You can checkout our marketing page here: _________________
+You can checkout our marketing page here: 
 
 Getting Started
 
@@ -24,6 +22,7 @@ Node
 nodemon
 bcrypt
 dotenv
+pg
 cors
 express
 helmet
@@ -33,6 +32,7 @@ Jest
 Supertest
 
 npm i
+
 Start the development local server, this git will use port 5000
 
 npm run server
