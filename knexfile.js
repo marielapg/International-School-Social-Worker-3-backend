@@ -1,5 +1,8 @@
 require('dotenv').config();
-
+// const localPgConnection = {
+//   host: process.env.DB_HOST,
+//   database
+// }
 module.exports = {
   development: {
     client: 'sqlite3',
@@ -29,19 +32,19 @@ module.exports = {
     },
   },
 
-  production: {                                                        
-    client: 'pg', 
-    // useNullAsDefault: true,                                                                                                 
-    connection: process.env.DATABASE_URL,                               
-    pool: {                                                            
-      min: 2,                                                           
-      max: 10,                                                          
-    },                                                                  
-    migrations: {                                                       
-        directory: './database/migrations',                                 
-    },                                                                  
-    seeds: {                                                            
-      directory: './database/seeds',                                        
-    },                                                                  
-  },
+  // production: {                                                        
+  //   client: 'pg', 
+  //   // useNullAsDefault: true,                                                                                                 
+  //   connection: process.env.DATABASE_URL,                               
+  //   pool: {                                                            
+  //     min: 2,                                                           
+  //     max: 10,                                                          
+  //   },                                                                  
+  //   migrations: {                                                       
+  //       directory: './database/migrations',                                 
+  //   },                                                                  
+  //   seeds: {                                                            
+  //     directory: './database/seeds',                                        
+  //   },                                                                  
+  // },
 };
