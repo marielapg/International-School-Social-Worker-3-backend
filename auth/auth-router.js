@@ -86,14 +86,14 @@ router.post('/login', (req, res) => {
     });
 });
 
-router.get('/logout', (req, res, next) => {
-  req.destroy((err) => {
-      if (err) {
-          next(err)
-      } else {
-          res.json( { message: 'User is logged out'} )
-      }
-  })
-})
+// router.get('/logout', (req, res, next) => {
+//   req.destroy((err) => {
+//       if (err) {
+//           next(err)
+//       } else {
+//           res.json( { message: 'User is logged out'} )
+//       }
+//   })
+// })
 
 module.exports = router;
