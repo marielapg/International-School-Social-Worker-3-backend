@@ -18,8 +18,6 @@ router.post('/register', (req, res) => {
     Admins.add(user)
       .then(saved => {
         const token = signToken(saved);
-        console.log("payload", payload)
-        console.log("token", token)
         req.loggedIn = true;
         req.email = user.email;
         const payload = {...saved, token: token}

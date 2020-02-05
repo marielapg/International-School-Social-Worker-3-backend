@@ -8,7 +8,7 @@ exports.up = function(knex) {
         Admins.string('phone', 25);
         Admins.string('organization', 235);
         Admins.string('password', 235).notNullable();
-        Admins.string('type', 235).notNullable();
+        Admins.string('type', 60).notNullable();
       });
 };
 
