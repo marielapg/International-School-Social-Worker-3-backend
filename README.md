@@ -7,6 +7,10 @@ The base URL for this project is: https://intl-school-social-worker.herokuapp.co
 ## International School Social Worker is a website that will help allow administrators and social workers insert students data. 
 
 ## Authentication
+
+https://intl-school-social-worker.herokuapp.com/api
+
+
 ## Registration:
 POST "/auth/register"
 
@@ -64,7 +68,7 @@ Response Body:
  
  ## Create Student:
  POST to ``` https://intl-school-social-worker.herokuapp.com/api/admins/:id/students```
- where id is the admin's user id.
+ id is the admin's user id.
 
  Request Body:
  ```
@@ -86,7 +90,7 @@ Response Body:
  ```
 
  Response Body:
- 
+ ```
     {
         "id": (student id)
         "first_name": string,
@@ -104,7 +108,7 @@ Response Body:
         "representative_contact": string,
         "admin_id": (admin id)
     }
-
+```
 ## Students
 ## Get List of students:
 GET to ```https://intl-school-social-worker.herokuapp.com/api/students```
@@ -200,6 +204,5 @@ Response Body:
         "phone": string,
         "organization": string
     }
-  ...
-]
-```
+ ]
+``` 
