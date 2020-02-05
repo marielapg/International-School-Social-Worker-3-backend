@@ -3,4 +3,4 @@ const knex = require('knex')('production');
 
  const environment = process.env.DB_ENV || 'production';
 
- module.exports = knex(config[environment]);
+ module.exports = require('knex')('production');
